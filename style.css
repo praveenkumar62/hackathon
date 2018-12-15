@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("pics/bg1.jpg");
+    background-repeat: repeat;
+}
+
+.container-fluid1{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-fluid2{
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(0,0,0,0.5)
+}
+
+.navbar-default{
+    padding: 20px;
+    border: none;
+    background-image: url("pics/bg1.jpg");
+    background-repeat: repeat;
+}
+
+.navbar-inverse{
+    border: none;
+    background-image: url("pics/bg1.jpg");
+    background-repeat: repeat;
+
+}
+
+.navbar-default .navbar-nav li .active1{
+    color: #99cc00;
+} 
+
+.center li a
+{
+    text-align: center;
+}
+
+.center{
+    background-color:#ffcc00 ;
+}
+
+.navbar-default .navbar-nav li a
+		{
+            color: #D5D5D5;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+        
+.navbar-default .navbar-nav li a:hover
+	{
+		color: #99cc00;
+    }
+    
+.navbar-inverse .navbar-nav li a
+	{
+         color: black;
+        font-weight: 900;
+        font-size: 1.2em;
+    }
+
+    .navbar-inverse .navbar-nav li a:hover
+	{
+		color:white;
+    }
+
+.sub{
+    border: 1px solid #ff3399;
+}
+
+#color{
+    color: #ff3399;
+}
+
+.sub:hover{
+    border: 1px solid white;
+}
+
+
+#color:hover{
+    color: white;
+}
+
+.container-main{
+    padding: 20px;
+}
+    
+video{
+    width: 100%;
+    height: auto;
+}
+
+.container1 { 
+    position:relative; 
+}
+
+.container1 video {
+    margin-bottom: 5%;
+    position:relative;
+    z-index:0;
+    width: 70%;
+    height: auto;
+    transform: translate(20%,10%);
+}
+
+.overlaytext {
+    position:absolute;
+    top:30;
+    left:30;
+    z-index:1;
+}
+
+.overlaytext h1{
+    font-size: 6em;
+    text-transform: uppercase;
+    line-height: 0.8em;
+    font-weight: 900;
+    color: white;
+}
+
+#h1-color{
+    color: yellow;
+}
+
+
+.overlaytext h2{
+    color: white;
+    font-size: 1.5em;
+    line-height: 0.4em;
+}
+
+.main1-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin-top: 3%;
+}
+
+.main1-over{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: white;
+}
+
+.container-fluid img{
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid .box{
+    border: none;
+    width: 100%;
+    height: 240px;
+    background-color: white;
+}
+.container-fluid h1{
+    padding: 10px 20px;
+    font-size: 3em;
+    color: yellow;
+    font-weight: 700;
+}
+
+.container-fluid h2{
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px; 
+}
+
+.container-fluid p{
+    padding: 17px 25px;
+    line-height: 2em;
+}
+
+#h1{
+    margin: 6%;
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #3399ff;
+    text-align: center;
+}
+
+#h1 a:hover{
+    text-decoration: none;
+    color: #ff3399;
+}
+
+.container-fluid .head{
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.container-fluid hr{
+    border-width: 3px;
+    border-color: #3399ff;
+    float: left;
+    margin: 0;
+    width: 20%;
+}
+
+.container-spaced{
+    margin: 5%;
+}
+
+.container-fluidz #logos{
+    font-size: 1.5em;
+    color: white;
+}
+
+.container-fluidz img{
+    width: 170px;
+    height: 90px;
+    padding: 15px;
+    float: left;
+}
+
+#logos{
+    font-size: 1.5em;
+    color: white;
+}
+
+.container-form form{
+    margin: 0;
+}
+
+input[type="email"]{
+    padding: 20px;
+    border: none;
+}
+
+button{
+    margin: 0;
+    padding: 20px 20px;
+    color: white;
+    background-color: #ff3399;
+    border: none;
+}
+
+.fonts{
+    padding: 20px;
+}
+
+.fonts a{
+    padding: 20px;
+    font-size: 1.8em;
+    color: #99cc00;
+    text-decoration: none;
+}
+
+.fonts a:hover{
+    color: white;
+}
+
+.container-foot h1{
+    padding: 20px;
+}
+
+footer h1{
+    color: white;
+    font-size: 1.5em;
+}
+
+footer p{
+    line-height: 1.5em;
+    color: white;
+}
+
+.high{
+    font-weight: bold;
+}
+
+.container-foot li{
+    list-style-type: none;
+}
+
+.container-foot li a{
+    color: white;
+}
+
+.container-count h2{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+}
+
+.container-count #shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50px;
+  margin:5px;
+}
+
+.container-count .count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+
+.container-count p{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
